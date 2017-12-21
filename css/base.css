@@ -1,0 +1,23 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+  outline: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	-webkit-tap-highlight-color: transparent;
+}
+body{
+	background: #ffffff;
+}
+img{
+  width:100px;
+  height: 100%;
+	display: block;
+	border: 0;
+}
