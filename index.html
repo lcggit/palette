@@ -12,35 +12,40 @@
 <body>
     <header>
         <ul class="fill">
-            <li id="new">新建</li>
-            <li id="open">打开</li>
-            <li id="save">保存</li>
-            <li id="back">撤销</li>
+            <li id="new"><i class="iconfont">&#xe63e;</i></li>
+            <li id="clear"><i class="iconfont">&#xe600;</i></li>
+            <li id="save"><a href=""><i class="iconfont">&#xe61a;</i></a></li>
+            <li id="back"><i class="iconfont">&#xe62f;</i></li>
         </ul>
         <ul class="option">
-            <li id="fill">填充</li>
-            <li id="till_style">填充样式</li>
-            <li id="outline">描边</li>
-            <li id="outline_style">描边样式</li>
+            <li class="stylebtn" id="fill"><i class="iconfont">&#xe647;</i></li>
+            <li class="stylebtn" id="stroke"><i class="iconfont">&#xe628;</i></li>
+            <li><i class="iconfont">&#xe620;</i></li>
+            <li><input type="color" id="fillStyle"></li>
+            <li><input type="color" id="strokeStyle"></li>
+            <li><input type="number" id="lineWidth"></li>
         </ul>
         <ul class="style">
-            <li id="line">直线</li>
-            <li id="dash">虚线</li>
-            <li id="rec">矩形</li>
-            <li id="circle">圆形</li>
-            <li id="poly">多边形</li>
-            <li id="poly_J">多角形</li>
-            <li id="pencil">铅笔</li>
-            <li id="erase">橡皮擦</li>
+            <li id="line"><i class="iconfont">&#xe60b;</i></li>
+            <li id="dash"><i class="iconfont">&#xe62e;</i></li>
+            <li id="rec"><i class="iconfont">&#xe663;</i></li>
+            <li id="circle"><i class="iconfont">&#xe629;</i></li>
+            <li id="poly"><i class="iconfont">&#xe603;</i></li>
+            <li id="poly_J"><i class="iconfont">&#xe881;</i></li>
+            <li id="pencil"><i class="iconfont">&#xe678;</i></li>
+            <li id="erase"><i class="iconfont">&#xe648;</i></li>
+        </ul>
+        <ul class="font">
+            <li class="fonts">文字</li>
+            <li class="clips">裁剪</li>
         </ul>
     </header>
     <section>
-        <canvas width="800px" height="600px">
-
-        </canvas>
-        <div class="mask">
-
-        </div>
+        <!--<canvas width="800px" height="600px">-->
+        <!--</canvas>-->
+        <div class="mask"></div>
+        <div class="opacity"></div>
+        <div class="clip"></div>
     </section>
 </body>
 </html>
