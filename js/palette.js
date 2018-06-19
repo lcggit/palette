@@ -175,6 +175,7 @@ class Palette{
         this.ctx.lineTo(mx, my);
         this.ctx.closePath();
         this.ctx.stroke();
+        this.ctx.setLineDash([]);
     }
     //画布
     draw(type,num){
